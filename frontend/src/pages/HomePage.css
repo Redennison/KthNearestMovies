@@ -1,0 +1,53 @@
+.container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.title-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form-container {
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: center; /* Adjust space between the elements */
+    align-items: center; /* Vertically align items to the center */
+    gap: 10px; /* Optional: Add a gap between the elements */
+    padding: 10px; /* Optional: Add some padding around the container */
+}
+
+.MuiTextField-root,
+.MuiButton-root {
+    margin-top: 0 !important; /* Remove any default margin */
+}
+
+.MuiAutocomplete-root {
+    margin-top: 0 !important; /* Ensure Autocomplete has no top margin */
+}
+
+.movies-container {
+    padding: 30px 40px;
+    max-height: 600px;
+    height: 100%;
+    display: grid;
+    justify-content: center; /* Center the grid container */
+    justify-items: center; /* Center the items in each grid cell */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    column-gap: 20px;
+    row-gap: 25px;
+    overflow-y: auto;
+    box-sizing: border-box
+}
+
+.header {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sub-header {
+    padding: 0px 50px;
+    font-family: 'Comic Sans MS', cursive;
+}
+

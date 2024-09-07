@@ -1,0 +1,23 @@
+.movie-container {
+    text-align: center;
+    border: 2px solid #bdbdbd;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    height: 350px;
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.movie-container:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    border-color: #9e9e9e; /* Darken the border on hover */
+}
+
+.image-card__image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
